@@ -26,7 +26,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Lead Engineer for AI Startup
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
   * Used PyTorch, HuggingFace and SentenceTransformers for transformation
-  * Devloped Python application to perform AI service wrapped with Flask web wrapper
+  * Developed Python application to perform AI service wrapped with Flask web wrapper
 
 **Wake Forest BioTech** (Winston Salem, NC):  
   **AI Consultant**:  01/2020 - Present
