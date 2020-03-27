@@ -4,7 +4,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 
  * Winston Salem, NC
  * `tf_inquiries@createksolutions.com`
- * 281-381-1391
+ * 720-381-1084
  * www.linkedin.com/in/tim-fox-ai    
 
 ## Skill Summary
@@ -25,7 +25,7 @@ Scalable Artificial Intelligence Engineer and Consultant
  
   * Lead Engineer for AI Startup
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
-  * Used PyTorch, HuggingFace and SentenceTransformers for transformation
+  * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed Python application to perform AI service wrapped with Flask web wrapper
 
 **Wake Forest BioTech** (Winston Salem, NC):  
@@ -33,9 +33,8 @@ Scalable Artificial Intelligence Engineer and Consultant
 
   * Performed research on application of NLP techniques to Genomics
   * Developed scalable ways to process large genomic corpus 
-  * Implemented AI work using Tensorflow, Keras, Python, R
+  * Implemented AI/DL work using Tensorflow, Keras, Python, R
   * Received grants from NSF, NIH
-
 
 **CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX): 
   **Scalable AI Consultant**:  (2006-Present)  
