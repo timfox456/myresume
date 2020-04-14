@@ -10,7 +10,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM
-* **NLP**: BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK
+* **NLP**: BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash)
@@ -39,6 +39,11 @@ Scalable Artificial Intelligence Engineer and Consultant
 **CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX): 
   **Scalable AI Consultant**:  (2006-Present)  
   **Projects**:  
+
+**Macys Online**, (San Francisco, CA):  
+  * Implemented Rasa based conversational AI chatbot
+  * Implemented Keras model for entity recognition and extraction
+  * Trained and deployed predictive text model for online and mobile.
 
 **Wal-Mart**, (Bentonville, AR):  
 
@@ -95,6 +100,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Google Certified Data Engineer
   * Google Certified Cloud Architect
   * Google Certified Instructor
+  * Google Certififed Consultant
   * Cloudera Certified Engineer for Hadoop
 
 
