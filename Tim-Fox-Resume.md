@@ -15,7 +15,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash)
 * **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure
-* **Big Data**: Hadoop, Spark, Spark ML/MLlib, Cloudera, Hortonworks, Kafka, Storm, Druid, Zookeeper.
+* **Big Data**: Hadoop, Spark, Spark ML/MLlib, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper.
 * **DevOps**: Kubernetes, Docker, Terraform
 
 ## Experience
@@ -114,7 +114,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill List
 
  * AI Experience: Tensorflow, Keras, PyTorch, Analytics Zoo
- * Big Data experience includes Hadoop, HDFS, HBase, Hive, Pig, Zookeeper, Oozie, Flume, Cassandra, Datastax, MongoDB, Lucene, Mahout, and many other related technologies (I am a certified Cloudera Developer – CCDH)
+ * Big Data experience includes Hadoop, HDFS, HBase, Hive, Pig, Zookeeper, Oozie, Flume, Spark, NiFi, Flink, Storm, Kafka, Cassandra, Datastax, MongoDB, Lucene, Mahout, and many other related technologies (I am a certified Cloudera Developer – CCDH)
  * 16+ years of experience in software development, DB Developer, project management, and software architecture.
  * Skills including technical leadership, mentoring junior developers, customer requirements gathering, and customer expectations management.
  * Text mining experience: TextRank, LexRank, sentiment analysis, coreference
