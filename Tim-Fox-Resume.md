@@ -12,9 +12,9 @@ Scalable Artificial Intelligence Engineer and Consultant
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM
 * **NLP**: BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
-* **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML
+* **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash)
-* **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure
+* **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure, GPU, TPU
 * **Big Data**: Hadoop, Spark, Spark ML/MLlib, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper.
 * **DevOps**: Kubernetes, Docker, Terraform
 
@@ -27,6 +27,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed Python application to perform AI service wrapped with Flask web wrapper
+  * Used dask, GPU, TPU for parallelization
 
 **Wake Forest BioTech** (Winston Salem, NC):  
   **AI Consultant**:  01/2020 - Present
