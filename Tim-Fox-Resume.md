@@ -17,6 +17,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 * **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure, GPU, TPU
 * **Big Data**: Hadoop, Spark, Spark ML/MLlib, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper.
 * **DevOps**: Kubernetes, Docker, Terraform
+* **E-Discovery**: Relativity, FreeEed
 
 ## Experience
 
@@ -28,6 +29,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed Python application to perform AI service wrapped with Flask web wrapper
   * Used dask, GPU, TPU for parallelization
+  * Interfaced with Relativity for E-discovery integration for AI component
 
 **Wake Forest BioTech** (Winston Salem, NC):  
   **AI Consultant**:  01/2020 - Present
@@ -52,6 +54,10 @@ Scalable Artificial Intelligence Engineer and Consultant
   * 450 node cluster size Running Cloudera.
   * Integrated with Experian data for MDM / Identity Management of data.
   * Used Spark ML (PySpark) for predictive analysis
+
+**ShmSoft**, (Houston,TX):
+  * Worked on FreeEed, an open source e-discovery platform.
+  * Interfaced wtih Relativity, market-leading 
 
 **TD Bank**, Toronto ON Canada 
 
