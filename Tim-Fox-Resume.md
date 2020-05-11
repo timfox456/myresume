@@ -47,6 +47,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Implemented Rasa based conversational AI chatbot
   * Implemented Keras model for entity recognition and extraction
   * Trained and deployed predictive text model for online and mobile.
+  * Implemented on Google CLoud Platform
 
 **Wal-Mart**, (Bentonville, AR):  
 
