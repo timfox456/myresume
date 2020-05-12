@@ -5,7 +5,7 @@ Scalable Artificial Intelligence Engineer and Consultant
  * Winston Salem, NC (Willing to Relocate Worldwide!)
  * `tf_inquiries@createksolutions.com`
  * +1-720-381-1084
- * http://www.linkedin.com/in/tim-fox-ai    
+ * www.linkedin.com/in/tim-fox-ai    
 
 ## Skill Summary
 
@@ -22,7 +22,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 
 ## Experience
 
-**Scaia**, http://www.scaia.ai/ (Houston, TX):  
+**Scaia**, http://www.scaia.ai/ (Houston, TX):   (Startup)
   **Lead Architect** : 01/2019 - Present
  
   * Lead Engineer for AI Startup
@@ -114,11 +114,18 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Cloudera Certified Engineer for Hadoop
 
 
+## Media
+
+  * LinkedIn Learning Instructor for **Data Science With Python**:
+  * https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale
+  
+
+
 ## Education
 
   * MS Work (incomplete) from **Stanford University** and **Virginia Tech**
     - **Research**:  FAA Funded project for locating bombs and other devices in airport X-Ray scanner
-    - Using CNN-based volumetric Neural Network Pipeline 
+    - Using CNN-based volumetric Neural Network Pipeline, OpenCV
   * **Virginia Tech**: BS, Computer Engineering
 
 ## Skill List
