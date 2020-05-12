@@ -28,7 +28,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Lead Engineer for AI Startup
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
-  * Devleoped AI/ML models for applying transformed vectors to Understand MMeaning
+  * Developed AI/ML models for applying transformed vectors to Understand Meaning
   * Developed Python application to perform AI service wrapped with Flask web wrapper
   * Used dask, CUDA, GPU, TPU for parallelization
   * Interfaced with Relativity for E-discovery integration for AI component
@@ -45,7 +45,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   **Scalable AI Consultant**:  (2006-Present)  
   **Projects**:  
 
-**Macys Online**, (San Francisco, CA):  
+**Macy's Online**, (San Francisco, CA):  
   * Implemented Rasa based conversational AI chatbot
   * Implemented Keras model for entity recognition and extraction
   * Trained and deployed predictive text model for online and mobile.
@@ -60,7 +60,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 
 **ShmSoft**, (Houston,TX):
   * Worked on FreeEed, an open source e-discovery platform.
-  * Interfaced wtih Relativity, market-leading 
+  * Interfaced with Relativity, market-leading 
 
 **TD Bank**, Toronto ON Canada 
 
@@ -110,7 +110,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Google Certified Data Engineer
   * Google Certified Cloud Architect
   * Google Certified Instructor
-  * Google Certififed Consultant
+  * Google Certified Consultant
   * Cloudera Certified Engineer for Hadoop
 
 
