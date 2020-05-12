@@ -16,7 +16,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash)
 * **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure, GPU, TPU
-* **Big Data**: Hadoop, Spark, Spark ML/MLlib, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper.
+* **Big Data**: Hadoop, Spark, Spark ML/MLlib, H20, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper.
 * **DevOps**: Kubernetes, Docker, Terraform
 * **E-Discovery**: Relativity, FreeEed
 
@@ -42,7 +42,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Received grants from NSF, NIH
 
 **CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX): 
-  **Scalable AI Consultant**:  (2006-Present)  
+  **Scalable AI Consultant**:  (2005-Present)  
   **Projects**:  
 
 **Macy's Online**, (San Francisco, CA):  
@@ -142,7 +142,7 @@ Scalable Artificial Intelligence Engineer and Consultant
  * Experience creating webcrawlers/bots
  * Java/J2EE experience includes Spring Framework, Hibernate, JDBC, JSP, Ant, Maven, Tomcat, JBOSS, Weblogix, Eclipse, Servlets, JNDI, JUnit, AWT, Swing.
  * Experience with development of other JVM languages including Scala and Groovy.
- * Cloud Experience: Amazon AWS, Microsoft Windows Azure.
+ * Cloud Experience: Google Cloud, Amazon AWS, Microsoft Windows Azure.
  * Social Media: Twitter, Facebook API mining, processing.
  * Open Source / Dynamic Language experience includes Ruby, Python, PERL, TCL, PHP, bash etc.
  * Web Experience includes HTML/CSS, Javascript, PHP.
