@@ -2,15 +2,16 @@
 
 Scalable Artificial Intelligence Engineer and Consultant
 
- * Winston Salem, NC
+ * Winston Salem, NC (Willing to Relocate Worldwide!)
  * `tf_inquiries@createksolutions.com`
- * 720-381-1084
- * www.linkedin.com/in/tim-fox-ai    
+ * +1-720-381-1084
+ * http://www.linkedin.com/in/tim-fox-ai    
 
 ## Skill Summary
 
-* **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM
+* **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
 * **NLP**: BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa
+* **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash)
@@ -27,8 +28,9 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Lead Engineer for AI Startup
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
+  * Devleoped AI/ML models for applying transformed vectors to Understand MMeaning
   * Developed Python application to perform AI service wrapped with Flask web wrapper
-  * Used dask, GPU, TPU for parallelization
+  * Used dask, CUDA, GPU, TPU for parallelization
   * Interfaced with Relativity for E-discovery integration for AI component
 
 **Wake Forest BioTech** (Winston Salem, NC):  
