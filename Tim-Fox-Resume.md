@@ -33,8 +33,8 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Used dask, CUDA, GPU, TPU for parallelization
   * Interfaced with Relativity for E-discovery integration for AI component
 
-**Wake Forest BioTech** (Winston Salem, NC):  
-  **AI Consultant**:  01/2020 - Present
+**Wake Forest University** (Winston Salem, NC):  
+  **Part-Time AI Research**:  01/2020 - Present
 
   * Performed research on application of NLP techniques to Genomics
   * Developed scalable ways to process large genomic corpus 
@@ -42,10 +42,11 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Received grants from NSF, NIH
 
 **CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX): 
-  **Scalable AI Consultant**:  (2005-Present)  
+  **Scalable AI Consultant**:  (2005-12/2018)  
   **Projects**:  
 
 **Macy's Online**, (San Francisco, CA):  
+
   * Implemented Rasa based conversational AI chatbot
   * Implemented Keras model for entity recognition and extraction
   * Trained and deployed predictive text model for online and mobile.
@@ -59,6 +60,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Used Spark ML (PySpark) for predictive analysis
 
 **ShmSoft**, (Houston,TX):
+
   * Worked on FreeEed, an open source e-discovery platform.
   * Interfaced with Relativity, market-leading 
 
