@@ -2,7 +2,7 @@
 
 Scalable Artificial Intelligence Engineer and Consultant
 
- * Winston Salem, NC (Willing to Relocate Worldwide!)
+ * Winston Salem, NC 
  * `tf_inquiries@createksolutions.com`
  * +1-720-381-1084
  * www.linkedin.com/in/tim-fox-ai    
@@ -29,9 +29,11 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed AI/ML models for applying transformed vectors to Understand Meaning
-  * Developed Python application to perform AI service wrapped with Flask web wrapper
+  * Extracted features from images and videos using Computer Vision Algorithms 
+  * Developed Python application to perform AI service wrapped with Flask container
   * Used dask, CUDA, GPU, TPU for parallelization
   * Interfaced with Relativity for E-discovery integration for AI component
+  * Deployed models using AWS, Azure, and GCP.
 
 **Wake Forest University** (Winston Salem, NC):  
   **Part-Time AI Research**:  01/2020 - Present
@@ -40,6 +42,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Developed scalable ways to process large genomic corpus 
   * Implemented AI/DL work using Tensorflow, Keras, Python, R
   * Received grants from NSF, NIH
+  * Used AWS to implement solution.
 
 **CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX): 
   **Scalable AI Consultant**:  (2005-12/2018)  
@@ -47,22 +50,27 @@ Scalable Artificial Intelligence Engineer and Consultant
 
 **Macy's Online**, (San Francisco, CA):  
 
+  * Implemented ML Serving architecture using Kubernetes
   * Implemented Rasa based conversational AI chatbot
   * Implemented Keras model for entity recognition and extraction
   * Trained and deployed predictive text model for online and mobile.
-  * Implemented on Google CLoud Platform
+  * Developed CV models for extracting features from images
+  * Implemented on Google CLoud Platform (GCP)
 
 **Wal-Mart**, (Bentonville, AR):  
 
+  * Developed CV model analysis of images from camera data source.
   * Architected a Hadoop-based solution for a customer-centric view of all Wal-Mart purchases on all channels (online, brick-and-mortar, etc)
   * 450 node cluster size Running Cloudera.
   * Integrated with Experian data for MDM / Identity Management of data.
   * Used Spark ML (PySpark) for predictive analysis
+  * Deployed on GCP (Google Cloud Platform)
 
 **ShmSoft**, (Houston,TX):
 
   * Worked on FreeEed, an open source e-discovery platform.
-  * Interfaced with Relativity, market-leading 
+  * Interfaced with Relativity, market-leading E-Discovery product.
+  * Deployed on AWS
 
 **TD Bank**, Toronto ON Canada 
 
@@ -76,6 +84,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 **Geophysical Insights**, Houston, TX 
 
   * Worked on unsupervised SOM-based Neural Network to find Oil and Gas depisits in seismic data
+  * Implementd Computer Vision model for extraction of features
   * Implemented SOM in Python
 
 **Match.com**, Dallas, TX: 
@@ -128,7 +137,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * MS Work (incomplete) from **Stanford University** and **Virginia Tech**
     - **Research**:  FAA Funded project for locating bombs and other devices in airport X-Ray scanner
     - Using CNN-based volumetric Neural Network Pipeline, OpenCV
-  * **Virginia Tech**: BS, Computer Engineering
+  * **Virginia Tech**: BS, Computer Engineering  May 1996
 
 ## Skill List
 
