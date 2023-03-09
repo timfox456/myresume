@@ -2,7 +2,7 @@
 
 Scalable Artificial Intelligence Engineer and Consultant
 
- * Winston Salem, NC 
+ * Lilburn, GA
  * `tf_inquiries@createksolutions.com`
  * +1-720-381-1084
  * www.linkedin.com/in/tim-fox-ai    
@@ -10,7 +10,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
-* **NLP**: BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa
+* **NLP**: ChatGPT, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
 * **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask
@@ -27,6 +27,7 @@ Scalable Artificial Intelligence Engineer and Consultant
  
   * Lead Engineer for AI Startup
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
+  * Used Generative AI including ChatGPT to generate similar output
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed AI/ML models for applying transformed vectors to Understand Meaning
   * Extracted features from images and videos using Computer Vision Algorithms 
