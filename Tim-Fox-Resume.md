@@ -7,16 +7,16 @@ Scalable Artificial Intelligence Engineer and Consultant
  * +1-720-381-1084
  * www.linkedin.com/in/tim-fox-ai    
 
-## Skill Summary
+## tSkill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
 * **NLP**: ChatGPT, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
 * **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
-* **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask
+* **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask, Azure Databricks
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash)
 * **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure, GPU, TPU
-* **Big Data**: Hadoop, Spark, Spark ML/MLlib, H20, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper.
+* **Big Data**: Hadoop, Spark, Spark ML/MLlib, H20, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper. 
 * **DevOps**: Kubernetes, Docker, Terraform
 * **E-Discovery**: Relativity, FreeEed
 
@@ -27,38 +27,44 @@ Scalable Artificial Intelligence Engineer and Consultant
  
   * Lead Engineer for AI Startup
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
-  * Used Generative AI including ChatGPT to generate similar output
+  * Used Generative AI including GPT-3 (ChatGPT) to generate similar output
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed AI/ML models for applying transformed vectors to Understand Meaning
   * Extracted features from images and videos using Computer Vision Algorithms 
   * Developed Python application to perform AI service wrapped with Flask container
   * Used dask, CUDA, GPU, TPU for parallelization
   * Interfaced with Relativity for E-discovery integration for AI component
+  * Developed Chatbot with Utterance NLU, dialog management.
+  * Used deep reinforcement learning for training algorithm
   * Deployed models using AWS, Azure, and GCP.
+  * Used Azure Databricks and Spark for Data Transformation and Large Scale Model Deployment
 
 **Wake Forest University** (Winston Salem, NC):  
-  **Part-Time AI Research**:  01/2020 - Present
+  **Part-Time AI Research**:  01/2020 - 12/2022
 
   * Performed research on application of NLP techniques to Genomics
   * Developed scalable ways to process large genomic corpus 
+  * Used Genetic Algorithms and Deep Learning approaches to solve problems
   * Implemented AI/DL work using Tensorflow, Keras, Python, R
   * Received grants from NSF, NIH
+  * Created Probabilistic Models
   * Used AWS to implement solution.
 
 **CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX): 
   **Scalable AI Consultant**:  (2005-12/2018)  
   **Projects**:  
 
-**Macy's Online**, (San Francisco, CA):  
 
-  * Implemented ML Serving architecture using Kubernetes
-  * Implemented Rasa based conversational AI chatbot
-  * Implemented Keras model for entity recognition and extraction
+**Macy's Online**, (San Francisco, CA):  Consulting Data Engineer 02/2017 - 01/2019
+
+  * Designed ML Serving architecture using Kubernetes
+  * Implemented Rasa based conversational AI chatbot with Utterance classiication and NLU
+  * Implemented Tensorflow/Keras model for entity recognition and extraction
   * Trained and deployed predictive text model for online and mobile.
   * Developed CV models for extracting features from images
   * Implemented on Google CLoud Platform (GCP)
 
-**Wal-Mart**, (Bentonville, AR):  
+**Wal-Mart**, (Bentonville, AR): Consulting Big Data Architect 11/2015 - 01/2017
 
   * Developed CV model analysis of images from camera data source.
   * Architected a Hadoop-based solution for a customer-centric view of all Wal-Mart purchases on all channels (online, brick-and-mortar, etc)
@@ -67,55 +73,59 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Used Spark ML (PySpark) for predictive analysis
   * Deployed on GCP (Google Cloud Platform)
 
-**ShmSoft**, (Houston,TX):
+**ShmSoft**, (Houston,TX): Consulting Software Engineer 11/2014 - 11/2015
 
   * Worked on FreeEed, an open source e-discovery platform.
+  * Developed AI Advisor, an AI solution for e-discovery, using NLP.
   * Interfaced with Relativity, market-leading E-Discovery product.
   * Deployed on AWS
 
-**TD Bank**, Toronto ON Canada 
+**TD Bank**, (Toronto ON Canada)  Consulting Data Engineer 05/2013 - 11/2014
 
   * Architected Hadoop / HBase repository for financial AML (Anti-Money Laundering) compliance regulations.
   * Ported analytical models from SAS to Hadoop/MapReduce/PySpark
+  * Engineered Data Pipelines using Databricks
 
-**Equifax**, Alpharetta, GA 
+**Equifax**, Alpharetta, GA Consulting Big Data Architect 02/2012 - 05/2013
 
   * Architected Cloudera based Hadoop Cluster and performed install / administration of cluster.
+  * Ported Logistic Regression Model for Scoring from SAS to Apache Spark
 
-**Geophysical Insights**, Houston, TX 
+**Geophysical Insights**, Houston, TX, Consulting Data Scientist 01/2011 - 02/2012
 
   * Worked on unsupervised SOM-based Neural Network to find Oil and Gas depisits in seismic data
   * Implementd Computer Vision model for extraction of features
   * Implemented SOM in Python
 
-**Match.com**, Dallas, TX: 
+**Match.com**, Dallas, TX: Consulting Data Scientist, 02/2010 - 01/2011 
 
   * Applied text vectorization, topic modeling to improve analysis of text for profile matching
   * Used Deep Learning / Image Recognition for profile images
+  * Used unsupervised learning to find clusters for matching
 
-**Daily Mail UK**, London, UK:
+**Daily Mail UK**, London, UK: Consulting Data Scientist, 11/2009 - 02/2010
 
   * Implemented Recommendations Engine for Media Content using Spark ML:
   * Performed topic modeling and document clustering for analysis
+  * Implemented Real-Time Personalization framework.
 
-**Astellas** (via NewVantage), 
+**Astellas** (via NewVantage), Consulting Big Data Architect, 02/2008 - 11/2009 
 
   * Developed signal correlation studies in R on data to determine effects of specified signals on performance.
   * Implemented POC project to demonstrate signal analytics.
   * Calculated performance and Adherence calculations using Hive/MapReduce.
 
-**NewVantage Technologies**, Boston, MA 
+**NewVantage Technologies**, Boston, MA, Consulting Data Engineer, 05/2007 - 02/2008
 
   * Architected Hadoop based solution for processing “Tick” DB and providing predictive analytical model for risk management and algorithmic trading.
   * Model included Mahout/Hadoop based machine learning model
   * Selected and annotated data for training.
   * Designed Real-Time stream processor using Twitter Storm/Redis.
 
-**Banking Client** 
+**Banking Client**  Consulting Software Engineer 11/2006-05/2007
 
   * Architected Hadoop-based Repository for banking data
   * Configured ETL pipeline for mainframe and SAS source data.
-
 
 ## Certifications
 
