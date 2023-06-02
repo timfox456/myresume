@@ -10,7 +10,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
-* **GPT**: GPT-3, GPT-4, ChatGPT, META OPT
+* **GPT**: GPT-3, GPT-4, ChatGPT, META OPT, OpenAI, Ada/Babbage
 * **NLP**: ChatGPT, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
 * **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
@@ -29,6 +29,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Lead Engineer for AI Startup
   * Used Generative AI including GPT-3 (ChatGPT) for generative AI for documents
   * Customized GPT-3 like layer (OPT) fine tuned on dataset 
+  * Used OpenAI GPT-4/Ada models with prompt engineering for some queries
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed AI/ML models for applying transformed vectors to Understand Meaning
