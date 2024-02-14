@@ -10,30 +10,34 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
-* **LLM**: OPT, LLaMA2, Mitral 7B
-* **GPT**: GPT-3, GPT-4, ChatGPT, OpenAI, Ada/Babbage
-* **NLP**: ChatGPT, LLM, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
-* **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR, DALL-E
+* **GPT**: GPT-3, GPT-4, ChatGPT, META OPT, OpenAI, Ada/Babbage
+* **NLP**: ChatGPT, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
+* **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask, Azure Databricks
-* **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash), React
+* **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash)
 * **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure, GPU, TPU
 * **Big Data**: Hadoop, Spark, Spark ML/MLlib, H20, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper. 
 * **DevOps**: Kubernetes, Docker, Terraform
-* **Front End**: Javascript, React, 
 * **E-Discovery**: Relativity, FreeEed
 
 ## Experience
 
+**Getty Images**, http://www.gettyimage.com/ (Seattle, WA):  
+  **Consulting AI/ML Engineer** : 06/2023 - Present
+ 
+  * Helped design a framework to run ML Models
+  * Scaled up to millions of API calls at inference 
+  * Developed distributed models 
+  * Used LLMs such as LLama2, GPT-4, and others.
+
 **Scaia**, http://www.scaia.ai/ (Houston, TX):   (Startup)
-  **Lead Architect** : 01/2019 - 04/2022, 04/2023 - Present
+  **Lead Architect** : 01/2019 - Present
  
   * Lead Engineer for AI Startup
   * Used Generative AI including GPT-3 (ChatGPT) for generative AI for documents
   * Customized GPT-3 like layer (OPT) fine tuned on dataset 
-  * Used AWS Bedrock and AWS Sagemaker for training LLM / Generative models
   * Used OpenAI GPT-4/Ada models with prompt engineering for some queries
-  * Did front-end development including React for product UI
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
   * Used PyTorch (Deep Learning), HuggingFace and SentenceTransformers for transformation
   * Developed AI/ML models for applying transformed vectors to Understand Meaning
@@ -61,13 +65,8 @@ Scalable Artificial Intelligence Engineer and Consultant
   **Scalable AI Consultant**:  (2005-12/2018)  
   **Projects**:  
 
-**Publix**, (Clearwater, FL): Consulting Data Scientist 04/2022-04/2023
-  * Built ML Models for prediction of in-store purchase behavior
-  * Used NLP models to understnad customer behavior
-  * Created Chatbot / Conversational AI software to engage with customers
-  * Used Azure Databricks to process data and deploy AI/ML models
 
-**Macy's Online**, (San Francisco, CA):  Consulting Data Scientist 02/2017 - 01/2019
+**Macy's Online**, (San Francisco, CA):  Consulting Data Engineer 02/2017 - 01/2019
 
   * Designed ML Serving architecture using Kubernetes
   * Implemented Rasa based conversational AI chatbot with Utterance classiication and NLU

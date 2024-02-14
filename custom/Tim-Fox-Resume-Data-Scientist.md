@@ -26,7 +26,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Experience
 
 **Scaia**, http://www.scaia.ai/ (Houston, TX):   (Startup)
-  **Lead Architect** : 01/2019 - 04/2022, 04/2023 - Present
+  **Lead Data Scientist/Architect** : 01/2019 - 04/2022, 04/2023 - Present
  
   * Lead Engineer for AI Startup
   * Used Generative AI including GPT-3 (ChatGPT) for generative AI for documents

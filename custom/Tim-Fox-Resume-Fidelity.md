@@ -10,10 +10,9 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
-* **LLM**: OPT, LLaMA2, Mitral 7B
-* **GPT**: GPT-3, GPT-4, ChatGPT, OpenAI, Ada/Babbage
+* **GPT**: LLM, GPT-3, GPT-4, ChatGPT, META OPT, OpenAI, Ada/Babbage, Llama2
 * **NLP**: ChatGPT, LLM, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
-* **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR, DALL-E
+* **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask, Azure Databricks
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash), React
@@ -25,8 +24,21 @@ Scalable Artificial Intelligence Engineer and Consultant
 
 ## Experience
 
+**Fidelity Investments**, http://www.fidelity.com/ (Boston, MA):   
+  **Lead Architect** : 11/2022 - Present
+ 
+  * Lead Architect for LLM and Transformer AI/ML Systmes at Fidelity
+  * Pioneered LLMOps and MLOps Best Practices at Fidelity
+  * Used AWS Bedrock for leveraging Foundational Models (FMs) for LLM operations
+  * Pioneered Fidelity's Data Science Platform on top of AWS Sagemaker.
+  * Created Architectural Best Practices for all Generative AI Models at Fidelity
+  * Engineered Gen-AI chatbot integration using LangChain and Huggingface Transformers
+  * Created Milvus Vector DB for proximity queries
+  * Integrated OpenAI Gateway from Microsoft Azure with Foundational Models.
+  * Develoepd ML-based guardrails for LLM output to avoid halucinatory output.
+
 **Scaia**, http://www.scaia.ai/ (Houston, TX):   (Startup)
-  **Lead Architect** : 01/2019 - 04/2022, 04/2023 - Present
+  **Lead Architect** : 01/2019 - 11/2022
  
   * Lead Engineer for AI Startup
   * Used Generative AI including GPT-3 (ChatGPT) for generative AI for documents
@@ -61,13 +73,20 @@ Scalable Artificial Intelligence Engineer and Consultant
   **Scalable AI Consultant**:  (2005-12/2018)  
   **Projects**:  
 
-**Publix**, (Clearwater, FL): Consulting Data Scientist 04/2022-04/2023
+**Publix**, (Clearwater, FL): Consulting Big Data Architect 04/2022-04/2023
   * Built ML Models for prediction of in-store purchase behavior
   * Used NLP models to understnad customer behavior
   * Created Chatbot / Conversational AI software to engage with customers
   * Used Azure Databricks to process data and deploy AI/ML models
 
-**Macy's Online**, (San Francisco, CA):  Consulting Data Scientist 02/2017 - 01/2019
+**ShmSoft**, (Houston,TX): Consulting Software Engineer 11/2014 - 11/2015
+
+  * Worked on FreeEed, an open source e-discovery platform.
+  * Developed AI Advisor, an AI solution for e-discovery, using NLP.
+  * Interfaced with Relativity, market-leading E-Discovery product.
+  * Deployed on AWS
+
+**Macy's Online**, (San Francisco, CA):  Consulting Data Engineer 02/2017 - 01/2019
 
   * Designed ML Serving architecture using Kubernetes
   * Implemented Rasa based conversational AI chatbot with Utterance classiication and NLU
