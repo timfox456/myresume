@@ -10,9 +10,9 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
-* **LLM**: OPT, LLaMA2, Mitral 7B
+* **LLM**: OPT, LLaMA2/LlaMa3`, Mitral 
 * **GPT**: GPT-3, GPT-4, ChatGPT, OpenAI, Ada/Babbage
-* **NLP**: ChatGPT, LLM, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
+* **NLP**: Langchain, ChatGPT, LLM, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
 * **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR, DALL-E
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask, Azure Databricks
@@ -31,7 +31,8 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Lead Engineer for AI Startup
   * Used Generative AI including GPT-3 (ChatGPT) for generative AI for documents
   * Customized GPT-3 like layer (OPT) fine tuned on dataset 
-  * Used AWS Bedrock and AWS Sagemaker for training LLM / Generative models
+  * Built NLP pipelines with Langchain
+  * Used AWS Bedrock and AWS Sagemaker for training foundation LLM / Generative models
   * Used OpenAI GPT-4/Ada models with prompt engineering for some queries
   * Did front-end development including React for product UI
   * Used BERT, AlBERT, RoBERTa, and others to extract meaning from legal and technical documents.
