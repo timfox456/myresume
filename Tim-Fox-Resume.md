@@ -10,12 +10,14 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
-* **LLM**: OPT, LLaMA2/LlaMa3`, Mitral 
-* **GPT**: GPT-3, GPT-4, ChatGPT, OpenAI, Ada/Babbage
+* **LLM**: OPT, LLaMA2/LlaMa3`, Mistral, RAG, Graph-of-Thought
+* **GPT**: GPT-3, GPT-4, ChatGPT, OpenAI, 
 * **NLP**: Langchain, ChatGPT, LLM, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
 * **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR, DALL-E
 * **Image Recognition**: CNN, ResNET, Inception, Volumetric Data
 * **Machine Learning: (ML)**: NumPy, SciPy, scikit-learn, Spark ML, dask, Azure Databricks
+* **VectorDB**: Pinecone, Milvus
+* **GraphDB**: GraphDB, Neo4J, ArangoDB
 * **Languages**: Python, R, Java, Javascript, C/C++, Unix Shell (bash), React
 * **Cloud**: Google CLoud Platform (GCP), Amazon AWS, Microsoft Azure, GPU, TPU
 * **Big Data**: Hadoop, Spark, Spark ML/MLlib, H20, Cloudera, Hortonworks, Kafka, NiFi, Storm, Druid, Zookeeper. 
@@ -29,9 +31,20 @@ Scalable Artificial Intelligence Engineer and Consultant
   **Lead Architect** : 01/2019 - 04/2022, 04/2023 - Present
  
   * Lead Engineer for AI Startup
-  * Used Generative AI including GPT-3 (ChatGPT) for generative AI for documents
+  * Used Generative AI including GPT-3.5 (ChatGPT) for generative AI for documents
+  * Created RAG pipeline using Milvus VectorDB.
+  * Developed QA system by building Knowledge Graph with Neo4J and using LLM using Graph-of-Thought
   * Customized GPT-3 like layer (OPT) fine tuned on dataset 
   * Built NLP pipelines with Langchain
+  * Developed a RAG system that combines retrieval and generation techniques for an AI chatbot.
+  * Leveraged Milvus Vector DB to efficiently retrieve relevant documents from a corpus.
+  * Utilized LangChain, a framework for large language models (LLMs), to handle document chunking and querying the vector database.
+  * LangChain improved efficiency and context-awareness in the chatbot’s responses.
+  * Loaded web-based documents using LangChain’s WebBaseLoader.
+  * Split documents into manageable chunks using RecursiveCharacterTextSplitter.
+  * Integrated the RAG system into the chatbot architecture.
+  * Enhanced chatbot responses by combining retrieval-based information from Milvus with generative text from OpenAI 3.5 API.
+  * Fine-tuned the RAG system using domain-specific data.
   * Used AWS Bedrock and AWS Sagemaker for training foundation LLM / Generative models
   * Used OpenAI GPT-4/Ada models with prompt engineering for some queries
   * Did front-end development including React for product UI
@@ -40,7 +53,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Developed AI/ML models for applying transformed vectors to Understand Meaning
   * Extracted features from images and videos using Computer Vision Algorithms 
   * Developed Python application to perform AI service wrapped with Flask container
-  * Used dask, CUDA, GPU, TPU for parallelization
+  * Used CUDA, GPU, TPU for parallelization
   * Interfaced with Relativity for E-discovery integration for AI component
   * Developed Chatbot with Utterance NLU, dialog management.
   * Used deep reinforcement learning for training algorithm
