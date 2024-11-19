@@ -10,7 +10,7 @@ Scalable Artificial Intelligence Engineer and Consultant
 ## Skill Summary
 
 * **AI**: Tensorflow, PyTorch, Keras, DNN, CNN, RNN, LSTM, GANs, CUDA
-* **LLM**: OPT, LLaMA2/LlaMa3`, Mistral, RAG, Graph-of-Thought
+* **LLM**: OPT, LLaMA2/LlaMa3`, Mistral, RAG, Graph-of-Thought, SLM, Agent
 * **GPT**: GPT-3, GPT-4, ChatGPT, OpenAI, 
 * **NLP**: Langchain, ChatGPT, LLM, OpenAI, BERT, ELMo, Huggingface, SentenceTransformers, SpaCy, Gensim, NLTK, Rasa, 
 * **CV**: Computer Vision, OpenCV, SLAM, DICOM, DCNN, LIDAR, DALL-E
@@ -35,7 +35,8 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Created RAG pipeline using Milvus VectorDB.
   * Developed QA system by building Knowledge Graph with Neo4J and using LLM using Graph-of-Thought
   * Customized GPT-3 like layer (OPT) fine tuned on dataset 
-  * Built NLP pipelines with Langchain
+  * Built NLP pipelines with Langchain.
+  * Created Autonomous ReAct Agents for autonomous reasoning agents.
   * Developed a RAG system that combines retrieval and generation techniques for an AI chatbot.
   * Leveraged Milvus Vector DB to efficiently retrieve relevant documents from a corpus.
   * Utilized LangChain, a framework for large language models (LLMs), to handle document chunking and querying the vector database.
@@ -58,6 +59,7 @@ Scalable Artificial Intelligence Engineer and Consultant
   * Developed Chatbot with Utterance NLU, dialog management.
   * Used deep reinforcement learning for training algorithm
   * Deployed models using AWS, Azure, and GCP.
+  * Used GCP: BigQuery, Vertex.AI, OpenAI, etc
   * Used Azure Databricks and Spark for Data Transformation and Large Scale Model Deployment
 
 **Wake Forest University** (Winston Salem, NC):  
