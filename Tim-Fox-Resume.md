@@ -1,121 +1,128 @@
 # Timothy M Fox
 
-Scalable Artificial Intelligence Engineer and Consultant
+Scalable Artificial Intelligence Engineer and Consultant  
+* Lilburn, GA  
+* `tf_inquiries@createksolutions.com`  
+* +1-720-381-1084  
+* www.linkedin.com/in/tim-fox-ai  
 
-* Lilburn, GA
-* `tf_inquiries@createksolutions.com`
-* +1-720-381-1084
-* www.linkedin.com/in/tim-fox-ai
+---
 
 ## Skill Summary
 
 * **AI/ML:** Deep Learning (TensorFlow, PyTorch, Keras), Machine Learning (Scikit-learn, Spark ML), Computer Vision (OpenCV, SLAM), NLP (LangChain, Hugging Face, BERT, SentenceTransformers), Generative AI (GANs, LLMs)
-* **LLMs:** OPT, LLaMA2/LlaMa3, Mistral, RAG, Graph-of-Thought, SLM, Agent
-* **Vector/Graph Databases:** Pinecone, Milvus, Neo4j, ArangoDB
-* **Cloud Platforms:** GCP (Vertex AI, BigQuery), AWS (SageMaker, Bedrock), Azure (Databricks)
-* **Big Data:** Spark, Hadoop, Kafka, Databricks
+* **LLMs & Reasoning:** OPT, LLaMA2/LlaMA3, Mistral, RAG, Graph-of-Thought, Structured Language Models (SLM), Autonomous Agents
+* **Vector & Graph Databases:** Pinecone, Milvus, Neo4j, ArangoDB
+* **Cloud Platforms:** AWS (Bedrock, SageMaker, Lambda, S3), GCP (Vertex AI, BigQuery), Azure (Databricks)
+* **Big Data:** Hadoop (Cloudera), Spark (PySpark), Kafka, Databricks, NiFi
 * **Languages:** Python, R, Java, JavaScript, C/C++
-* **DevOps:** Docker, Kubernetes, Terraform
+* **DevOps & Infra:** Docker, Kubernetes, Terraform, CI/CD
+* **Tools**: Jira, Confluence, Fiddler, Weights and Biases, MLFlow
+
+---
 
 ## Experience
 
-**Scaia**, http://www.scaia.ai/ (Houston, TX): (Startup)  
-**Lead Architect**: 01/2019 - Present
+### **Scaia**, http://www.scaia.ai/ (Houston, TX)  
+**Lead Architect** — *01/2019 - Present*
 
-* Led AI startup, developing and deploying advanced AI solutions.
-* Implemented RAG pipelines using Milvus VectorDB, enhancing chatbot retrieval accuracy.
-* Developed a QA system using Neo4J Knowledge Graphs and LLMs with Graph-of-Thought reasoning.
-* Fine-tuned OPT models for document generation, improving content relevance.
-* Built NLP pipelines with Langchain, streamlining document processing.
-* Developed Autonomous ReAct Agents for autonomous reasoning.
-* Utilized AWS Bedrock and SageMaker for training foundation LLM / Generative models.
-* Implemented front-end development using React for product UI.
-* Deployed AI/ML models on AWS, Azure, and GCP, optimizing for scalability and performance.
-* Used Azure Databricks and Spark for large scale data transformation and model deployment.
+Led AI strategy and implementation across cutting-edge GenAI and RAG solutions for enterprise clients.
 
-**CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX):  
-**Scalable AI Consultant**: (2005-12/2018)
+* Spearheaded development of RAG (Retrieval-Augmented Generation) pipelines leveraging **Milvus** and **Pinecone** Vector Databases to dramatically improve enterprise chatbot accuracy.
+* Built full-stack GenAI solutions using **AWS Bedrock**, integrating foundational models (e.g., Claude, Titan) for scalable inference and fine-tuning.
+* Developed sophisticated **Graph-of-Thought** QA system using **Neo4j** for semantic understanding over legal corpora.
+* Integrated **Agenic AI** framework to build real-time autonomous agents with memory and adaptive reasoning.
+* Fine-tuned OPT and LLaMA2 models for structured document generation and summarization tasks.
+* Developed NLP pipelines using **LangChain** for document QA, semantic search, and knowledge augmentation.
+* Built Autonomous ReAct agents with reasoning loops and external tool capabilities.
+* Deployed multi-cloud AI/ML pipelines on **AWS, Azure, and GCP**, optimizing performance, latency, and cost.
+* Led full product lifecycle, including **React-based UI**, model serving infrastructure, and DevOps.
+* Composed User stories and fulfilled sprints with help of Jira.
 
-**Publix**, (Clearwater, FL): Consulting Data Scientist 04/2022-04/2023  
-* Built ML Models for prediction of in-store purchase behavior.  
-* Used NLP models to understand customer behavior.  
-* Created Chatbot / Conversational AI software to engage with customers.  
-* Used Azure Databricks to process data and deploy AI/ML models.  
+---
 
-**Macy's Online**, (San Francisco, CA): Consulting Data Scientist 02/2017 - 01/2019  
-* Designed ML serving architecture using Kubernetes, improving deployment efficiency.  
-* Implemented Rasa-based conversational AI chatbot with utterance classification and NLU.    
-* Developed CV models for image feature extraction, enhancing product recognition.  
-* Deployed solutions on Google Cloud Platform (GCP).  
+### **CreaTek Solutions, Inc**, http://www.createksolutions.com/ (Austin, TX)  
+**Scalable AI Consultant** — *2005 - 12/2018*
 
-**Wal-Mart**, (Bentonville, AR): Consulting Big Data Architect 11/2015 - 01/2017  
-* Architected a Hadoop-based solution for a customer-centric view, managing a 450-node Cloudera cluster.  
-* Developed CV model analysis of images from camera data source.  
-* Integrated with Experian data for MDM/Identity Management.  
-* Utilized Spark ML (PySpark) for predictive analysis, improving business insights.  
-* Deployed on Google Cloud Platform (GCP).  
+Delivered advanced machine learning and big data solutions to enterprise clients across retail, finance, media, and healthcare.
 
-**ShmSoft**, (Houston,TX): Consulting Software Engineer 11/2014 - 11/2015  
-* Worked on FreeEed, an open source e-discovery platform.  
-* Developed AI Advisor, an AI solution for e-discovery, using NLP.  
-* Interfaced with Relativity, market-leading E-Discovery product.  
-* Deployed on AWS.  
+#### **Publix**, Clearwater, FL — *04/2018 - 04/2019*
+* Built ML models for predicting in-store purchase behavior.
+* Used NLP to analyze and understand customer behavior and feedback.
+* Created chatbot / Conversational AI solutions to engage with customers.
+* Used **Azure Databricks** for model development and deployment.
 
-**TD Bank**, (Toronto ON Canada) Consulting Data Engineer 05/2013 - 11/2014  
-* Architected Hadoop / HBase repository for financial AML (Anti-Money Laundering) compliance regulations.  
-* Ported analytical models from SAS to Hadoop/MapReduce/PySpark.  
-* Engineered Data Pipelines using Databricks.  
+#### **Macy's Online**, San Francisco, CA — *02/2017 - 01/2019*
+* Designed ML model serving architecture using Kubernetes.
+* Developed a Rasa-based chatbot with utterance classification and NLU.
+* Built CV models for image-based product feature extraction.
+* Deployed solutions on **Google Cloud Platform (GCP)**.
 
-**Equifax**, Alpharetta, GA Consulting Big Data Architect 02/2012 - 05/2013  
-* Architected Cloudera based Hadoop Cluster and performed install / administration of cluster.  
-* Ported Logistic Regression Model for Scoring from SAS to Apache Spark.  
-  
-**Geophysical Insights**, Houston, TX, Consulting Data Scientist 01/2011 - 02/2012  
-* Worked on unsupervised SOM-based Neural Network to find Oil and Gas deposits in seismic data.  
-* Implemented Computer Vision model for extraction of features.  
-* Implemented SOM in Python.    
+#### **Walmart**, Bentonville, AR — *11/2015 - 01/2017*
+* Architected Hadoop-based customer-centric platform (450-node **Cloudera** cluster).
+* Built CV models to analyze in-store camera imagery.
+* Integrated external data sources (e.g., Experian) for MDM and identity resolution.
+* Used Spark ML (PySpark) for predictive modeling and analytics.
 
-**Match.com**, Dallas, TX: Consulting Data Scientist, 02/2010 - 01/2011
-* Applied text vectorization, topic modeling to improve analysis of text for profile matching.  
-* Used Deep Learning / Image Recognition for profile images.  
-* Used unsupervised learning to find clusters for matching.  
+#### **ShmSoft**, Houston, TX — *11/2014 - 11/2015*
+* Developed the **AI Advisor**, an NLP-based AI assistant for E-discovery.
+* Worked on FreeEed (open source), interfacing with Relativity.
+* Deployed solutions on **AWS**.
 
-**Daily Mail UK**, London, UK: Consulting Data Scientist, 11/2009 - 02/2010  
-* Implemented Recommendations Engine for Media Content using Spark ML.  
-* Performed topic modeling and document clustering for analysis.  
-* Implemented Real-Time Personalization framework.  
+#### **TD Bank**, Toronto, ON — *05/2013 - 11/2014*
+* Built Hadoop/HBase platform for **AML (Anti-Money Laundering)** compliance data.
+* Migrated models from SAS to PySpark/MapReduce.
+* Created scalable data pipelines on **Databricks**.
 
-**Astellas** (via NewVantage), Consulting Big Data Architect, 02/2008 - 11/2009  
-* Developed signal correlation studies in R on data to determine effects of specified signals on performance.  
-* Implemented POC project to demonstrate signal analytics.  
-* Calculated performance and Adherence calculations using Hive/MapReduce.  
+#### **Equifax**, Alpharetta, GA — *02/2012 - 05/2013*
+* Deployed and administered **Cloudera Hadoop cluster**.
+* Migrated logistic regression scoring models from SAS to Apache Spark.
 
-**NewVantage Technologies**, Boston, MA, Consulting Data Engineer, 05/2007 - 02/2008  
-* Architected Hadoop based solution for processing “Tick” DB and providing predictive analytical model for risk management and algorithmic trading.  
-* Model included Mahout/Hadoop based machine learning model.  
-* Selected and annotated data for training.  
-* Designed Real-Time stream processor using Twitter Storm/Redis.  
+#### **Geophysical Insights**, Houston, TX — *01/2011 - 02/2012*
+* Developed SOM-based Neural Network to identify oil & gas deposits in seismic data.
+* Built feature extraction CV models in Python.
 
-**Banking Client** Consulting Software Engineer 11/2006-05/2007  
-* Architected Hadoop-based Repository for banking data.  
-* Configured ETL pipeline for mainframe and SAS source data.  
+#### **Match.com**, Dallas, TX — *02/2010 - 01/2011*
+* Used topic modeling and text vectorization for profile matching.
+* Built Deep Learning-based image recognition models for user photos.
+
+#### **Daily Mail UK**, London — *11/2009 - 02/2010*
+* Created a content recommendation engine using Spark ML.
+* Implemented document clustering and real-time personalization.
+
+#### **Astellas (via NewVantage)** — *02/2008 - 11/2009*
+* Built signal correlation pipelines in R for drug adherence analysis.
+* Used Hive/MapReduce for clinical signal pattern analysis.
+
+#### **NewVantage Technologies**, Boston, MA — *05/2007 - 02/2008*
+* Built Hadoop-based predictive analytics pipeline for risk management in finance.
+* Used Mahout for modeling and Twitter Storm/Redis for real-time streaming.
+
+#### **Banking Client** — *11/2006 - 05/2007*
+* Built Hadoop-based data warehouse.
+* Developed ETL pipeline for SAS and mainframe data ingestion.
+
+---
 
 ## Certifications
 
-* Google Certified Data Engineer 
-* Google Certified Cloud Architect
-* Google Certified Instructor
-* Google Certified Consultant
-* Cloudera Certified Engineer for Hadoop
+* Google Certified Data Engineer  
+* Google Certified Cloud Architect  
+* Google Certified Instructor  
+* Google Certified Consultant  
+* **Cloudera Certified Engineer for Hadoop**
+
+---
 
 ## Media
 
-* LinkedIn Learning Instructor for **Data Science With Python**:  
-* https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale  
+* LinkedIn Learning Instructor for **Data Science With Python**  
+  https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale  
+
+---
 
 ## Education
 
 * MS Work (incomplete) from **Stanford University** and **Virginia Tech**  
-    * **Research**: FAA Funded project for locating bombs and other devices in airport X-Ray scanner  
-    * Using CNN-based volumetric Neural Network Pipeline, OpenCV  
-* **Virginia Tech**: BS, Computer Engineering May 1996  
+  * **Research:** FAA-funded project for detecting bombs/devices in airport X-Ray scans using CNN and OpenCV  
+* **Virginia Tech** — BS, Computer Engineering, May 1996  
