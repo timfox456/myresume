@@ -30,8 +30,26 @@ Highly accomplished and results-oriented AI Engineer and Consultant with extensi
 
 ## Experience
 
+### **Cloud Destinations**, http://www.clouddestinations.com/  
+**CUDA Kernel Engineer / AI Infrastructure Engineer (Contract – WWT)** — *06/2025 – Present*  
+
+Worked as a GPU Performance Engineer and Infrastructure Specialist supporting **WWT** on engagements for large enterprise clients. Focused on stabilizing GPU/MIG environments, debugging end-to-end inference paths, and developing high-performance CUDA kernels for time-series workloads.
+
+* **Developed custom CUDA kernels** for time-series prediction and ultra–low-latency inference workloads, optimizing memory access patterns, warp scheduling, and Tensor Core utilization for sub-millisecond execution.
+* **Diagnosed and stabilized MIG instability** across multi-node A100 clusters—resolving partition crashes, driver mismatches, and unsupported configuration combinations between CUDA, Kubernetes, Run:AI, and the NVIDIA driver stack.
+* Performed **full-stack discovery and assessment** of on-prem GPU environments: firmware, drivers, CUDA stack, container runtime, Kubernetes GPU scheduling, CNI/CSI, and high-performance networking (Mellanox/NVIDIA).
+* Implemented **GPU observability and health monitoring** with DCGM, Prometheus, and Grafana; built automated alerting and error-path checks for MIG health, GPU throttling, PCIe/NVLink issues, and container-runtime anomalies.
+* **Debugged NCCL, GPUDirect, and GPU–node data-path issues**, including inconsistent inference behavior, transport errors, and bandwidth contention across nodes and MIG slices.
+* Executed **smoke tests, soak tests, and multi-hour stability tests** across MIG partitions to validate inference reliability, uptime, and fault conditions.
+* Performed **throughput, latency, and reliability benchmarking** for production inference workloads; produced recommendations for SLOs, SLIs, and optimal MIG partition layouts.
+* Authored **production-ready runbooks** covering GPU environment build steps, MIG hardening procedures, observability configuration, troubleshooting flowcharts, rollback paths, and vendor escalation guidance.
+* Collaborated with WWT and client infrastructure teams to **bridge gaps left by prior integrators**, ensuring the on-prem GPU pods reached stable, production-grade readiness.
+
+
+
+
 ### **Scaia**, http://www.scaia.ai/ (Houston, TX)
-**Lead Architect** — *01/2019 - Present*
+**Lead Architect** — *01/2019 - 06/2025* 
 
 Led AI strategy and implementation, with a strong focus on optimizing GenAI and RAG solutions for performance and scalability, leveraging **NVIDIA** GPU technologies.
 
