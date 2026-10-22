@@ -1,0 +1,348 @@
+% Timothy M Fox -- Resume
+% Two-column layout recreated from "Timothy Fox_Resume.pdf".
+% Build: pdflatex Timothy_Fox_Resume_Latex.tex
+%
+% The left and right columns flow independently across pages (paracol).
+% Put content in the left column, then \switchcolumn to move to the right.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,top=0.55in,bottom=0.55in,left=0.6in,right=0.6in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[sfdefault]{roboto}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{paracol}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{needspace}
+\usepackage{xurl}            % lets long URLs break anywhere
+\usepackage[document]{ragged2e} % ragged-right everywhere, like the original
+
+% ---------------------------------------------------------------- colors
+\definecolor{accent}{HTML}{008CFF}
+\definecolor{body}{HTML}{333333}
+\definecolor{meta}{HTML}{555555}
+\definecolor{rulegray}{HTML}{C8C8C8}
+
+\color{body}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\RaggedRightParindent}{0pt}
+\setlength{\RaggedRightRightskip}{0pt plus 1fil}
+\hyphenpenalty=10000 % no hyphenation
+\setlength{\columnsep}{0.35in}
+\columnratio{0.58}
+\urlstyle{same}
+
+% ---------------------------------------------------------------- lists
+\setlist[itemize]{nosep, leftmargin=1.1em, labelsep=0.45em,
+  label={\footnotesize\textbullet}, topsep=1pt}
+
+% ---------------------------------------------------------------- building blocks
+% Section heading: bold caps with a thick rule underneath
+\newcommand{\cvsection}[1]{%
+  \par\needspace{8\baselineskip}\vspace{10pt}%
+  {\color{black}\fontsize{15}{17}\selectfont\bfseries\MakeUppercase{#1}}\par
+  \vspace{2pt}{\color{black}\rule{\linewidth}{2.2pt}}\par\vspace{3pt}}
+
+% Thin dashed separator between entries
+\newcommand{\dashsep}{%
+  \par\vspace{4pt}\noindent
+  \tikz\draw[rulegray, dashed, line width=0.5pt] (0.25pt,0) -- (\linewidth-0.25pt,0);%
+  \par\vspace{3pt}}
+
+% Date / location line
+% (an empty date omits the whole line; an empty location omits the pin)
+\newcommand{\metaline}[2]{%
+  \ifx&#1&\else
+  {\small\color{meta}\faCalendar*\hspace{4pt}#1%
+   \ifx&#2&\else\hspace{12pt}\faMapMarker*\hspace{4pt}#2\fi}\par\vspace{1pt}\fi}
+
+% Job: {title}{company (blue)}{dates}{location}
+\newcommand{\job}[4]{%
+  {\color{black}\large #1}\par\vspace{1pt}
+  {\color{accent}\bfseries #2}\par\vspace{1pt}
+  \metaline{#3}{#4}}
+
+% Project / client: {name}{dates}{location}
+\newcommand{\project}[3]{%
+  {\color{black}\large #1}\par\vspace{1pt}
+  \metaline{#2}{#3}}
+
+% Skill tag: bold word with a gray underline
+\newcommand{\skill}[1]{%
+  \tikz[baseline=(t.base)]{%
+    \node[inner xsep=0pt, inner ysep=3pt, anchor=base] (t) {\bfseries\color{meta}#1};
+    \draw[rulegray, line width=1pt]
+      ([xshift=-6pt]t.south west) -- ([xshift=6pt]t.south east);}%
+  \hspace{16pt}\penalty0\relax}
+
+% Skill group: {group name}{\skill{..}\skill{..}...}
+\newcommand{\skillgroup}[2]{%
+  \needspace{4\baselineskip}{\color{accent}#1}\par\vspace{6pt}
+  \begingroup\setlength{\baselineskip}{24pt}%
+  \leftskip=6pt\ignorespaces#2\par\endgroup\vspace{2pt}}
+
+% Certification line (blue, bold)
+\newcommand{\cert}[1]{{\color{accent}\bfseries #1}\par}
+
+% "Find me online" entry: {label}{text}
+\newcommand{\online}[2]{%
+  \begin{minipage}[t]{0.11\linewidth}
+    \vspace{0pt}{\color{accent}\Large\faGlobeAmericas}
+  \end{minipage}%
+  \begin{minipage}[t]{0.89\linewidth}
+    \vspace{0pt}{\color{black}\bfseries #1}\par\vspace{2pt}
+    {\small #2}
+  \end{minipage}\par}
+
+% Language proficiency dots: {filled}{total}
+\newcommand{\langdots}[2]{%
+  \foreach \i in {1,...,#2}{%
+    \ifnum\i>#1 \tikz\draw[accent] (0,0) circle (4.2pt);%
+    \else\tikz\fill[accent] (0,0) circle (4.2pt);\fi\hspace{1.5pt}}}
+
+% ================================================================ document
+\begin{document}
+
+% ---------------------------------------------------------------- header
+{\color{black}\fontsize{30}{34}\selectfont\bfseries TIMOTHY M FOX}\par
+\vspace{4pt}
+{\color{accent}\fontsize{14}{16}\selectfont
+  \textbf{Scalable} AI, Machine Learning \textbf{Engineer and Data Scientist}}\par
+\vspace{6pt}
+{\small\bfseries\color{meta}%
+  {\color{accent}\faPhone*}\hspace{4pt}+14708073317\hspace{12pt}
+  {\color{accent}\faAt}\hspace{4pt}\href{mailto:tf.deepsolute@gmail.com}{tf.deepsolute@gmail.com}\hspace{12pt}
+  {\color{accent}\faLink}\hspace{4pt}\href{https://www.linkedin.com/in/tim-fox-ai}{www.linkedin.com/in/tim-fox-ai}\hspace{12pt}
+  {\color{accent}\faMapMarker*}\hspace{4pt}Lilburn, GA}\par
+\vspace{2pt}
+
+\begin{paracol}{2}
+
+% ================================================================ LEFT COLUMN
+\cvsection{Experience}
+
+\job{Lead AI and ML Architect}{Scaia, \url{http://www.scaia.ai/}}{01/2019 - Present}{Houston, TX}
+\begin{itemize}
+  \item Led AI strategy and implementation across cutting-edge \textbf{GenAI} and \textbf{RAG} solutions for enterprise clients
+  \item Spearheaded development of RAG (Retrieval-Augmented Generation) pipelines leveraging \textbf{Milvus} and \textbf{Pinecone} Vector Databases to dramatically improve enterprise chatbot accuracy
+  \item Built full-stack GenAI solutions using \textbf{AWS Bedrock}, integrating foundational models (e.g., Claude, Titan) for scalable inference and fine-tuning
+  \item Developed a sophisticated \textbf{Graph-of-Thought} QA system using \textbf{Neo4j} for semantic understanding over legal corpora
+  \item Integrated \textbf{Agentic AI} framework to build real-time autonomous agents with memory and adaptive reasoning
+  \item Fine-tuned \textbf{OPT and LLaMA2} models for structured document generation and summarization tasks
+  \item Developed NLP pipelines using \textbf{LangChain} for document QA, semantic search, and knowledge augmentation
+  \item Built Autonomous \textbf{ReAct} agents with reasoning loops and external tool capabilities
+  \item Deployed multi-cloud AI/ML pipelines on \textbf{AWS, Azure, and GCP}, optimizing performance, latency, and cost
+  \item Led full product lifecycle, including \textbf{React-based UI}, model serving infrastructure, and DevOps
+  \item Composed User stories and fulfilled sprints with help of \textbf{Jira}
+\end{itemize}
+\dashsep
+
+\job{Lead Data Architect}{Elephant Scale}{01/2014 - 05/2020}{Houston, Texas}
+\begin{itemize}
+  \item Architect, Consultant, and Speaker on Big Data, Machine Learning, and Data Science topics. Experience in Spark, Hadoop, R, Python, Scala topics with a specialization in deep analytics, text mining, unstructured data analysis and machine learning.
+\end{itemize}
+\dashsep
+
+\job{Owner and Lead AI Engineer | Data Scientist}{CreaTek Solutions, Inc. \url{http://www.createksolutions.com/}}{12/2005 - Present}{Austin, TX}
+\begin{itemize}
+  \item A Senior AI leader with extensive experience in Big Data Engineering/Architecture and Data Science, specializing in Deep Learning, Machine Learning, Hadoop, Apache Spark, R, Python and Data Analytics. Proven success in delivering advanced AI and big data solutions to enterprise clients in retail, finance, media, and healthcare.
+\end{itemize}
+
+\cvsection{Projects}
+
+\project{Publix}{04/2022 - 04/2023}{Clearwater, FL}
+\begin{itemize}
+  \item Built ML models for predicting in-store purchase behavior.
+  \item Used NLP to analyze and understand customer behavior and feedback.
+  \item Created chatbot / conversational AI solutions to engage with customers.
+  \item Used \textbf{Azure Databricks} for model development and deployment.
+\end{itemize}
+\dashsep
+
+\project{Macy's Online}{02/2017 - 01/2019}{San Francisco, CA}
+\begin{itemize}
+  \item Designed ML model serving architecture using Kubernetes.
+  \item Developed a Rasa-based chatbot with utterance classification and NLU.
+  \item Built CV models for image-based product feature extraction.
+  \item Deployed solutions on \textbf{Google Cloud Platform (GCP).}
+\end{itemize}
+\dashsep
+
+\project{Walmart}{11/2015 - 01/2017}{Bentonville, AR}
+\begin{itemize}
+  \item Architected a Hadoop-based customer-centric platform (450-node \textbf{Cloudera} cluster).
+  \item Built CV models to analyze in-store camera imagery.
+  \item Integrated external data sources (e.g., Experian) for MDM and identity resolution.
+  \item Used Spark ML (PySpark) for predictive modeling and analytics.
+\end{itemize}
+\dashsep
+
+\project{ShmSoft}{11/2014 - 11/2015}{Houston, TX}
+\begin{itemize}
+  \item Developed the \textbf{AI Advisor}, an NLP-based AI assistant for E-discovery.
+  \item Worked on FreeEed (open source), interfacing with Relativity.
+  \item Deployed solutions on \textbf{AWS}.
+\end{itemize}
+\dashsep
+
+\project{TD Bank}{05/2013 - 11/2014}{Toronto, ON}
+\begin{itemize}
+  \item Built Hadoop/HBase platform for \textbf{AML (Anti-Money Laundering)} compliance data.
+  \item Migrated models from SAS to PySpark/MapReduce.
+  \item Created scalable data pipelines on \textbf{Databricks}.
+\end{itemize}
+\dashsep
+
+\project{Equifax}{02/2012 - 05/2013}{Alpharetta, GA}
+\begin{itemize}
+  \item Deployed and administered a \textbf{Cloudera Hadoop cluster}.
+  \item Migrated logistic regression scoring models from SAS to Apache Spark.
+\end{itemize}
+\dashsep
+
+\project{Geophysical Insights}{01/2011 - 02/2012}{Houston, TX}
+\begin{itemize}
+  \item Developed SOM-based neural network to identify oil and gas deposits in seismic data.
+  \item Built feature extraction CV models in Python.
+\end{itemize}
+\dashsep
+
+\project{Match.com}{02/2010 - 01/2011}{Dallas, TX}
+\begin{itemize}
+  \item Used topic modeling and text vectorization for profile matching.
+  \item Built deep learning-based image recognition models for user photos.
+\end{itemize}
+\dashsep
+
+\project{Daily Mail}{11/2009 - 02/2010}{UK, London}
+\begin{itemize}
+  \item Created a content recommendation engine using Spark ML.
+  \item Implemented document clustering and real-time personalization.
+\end{itemize}
+\dashsep
+
+\project{Astellas (via NewVantage)}{02/2008 - 11/2009}{}
+\begin{itemize}
+  \item Built signal correlation pipelines in R for drug adherence analysis.
+  \item Used Hive/MapReduce for clinical signal pattern analysis.
+\end{itemize}
+\dashsep
+
+\project{NewVantage Technologies}{05/2007 - 02/2008}{Boston, MA}
+\begin{itemize}
+  \item Built a Hadoop-based predictive analytics pipeline for risk management in finance.
+  \item Used Mahout for modeling and Twitter Storm/Redis for real-time streaming.
+\end{itemize}
+\dashsep
+
+\project{Banking Client}{11/2006 - 05/2007}{Location}
+\begin{itemize}
+  \item Built a Hadoop-based data warehouse.
+  \item Developed ETL pipeline for SAS and mainframe data ingestion.
+\end{itemize}
+
+\cvsection{Education}
+
+\job{MS Work}{Stanford University}{}{}
+\begin{itemize}
+  \item \textbf{Research}: FAA-funded project for detecting bombs/devices in airport X-Ray scans using CNN and OpenCV
+\end{itemize}
+\dashsep
+
+\job{BS, Computer Engineering}{Virginia Tech}{05/1996}{}
+
+% ================================================================ RIGHT COLUMN
+\switchcolumn
+
+\cvsection{Summary}
+{\small
+Scalable AI/ML Engineer and Data Scientist
+
+\vspace{8pt}
+I am a Senior AI/ML Engineer and Data Scientist (20 years of experience) focused on engineering solutions in end to end Artificial Intelligence, Machine Learning, Big Data Architecture, Data Science, and Analytics. With a record of high-impact work for enterprise clients, including Walmart, Macy's, and TD Bank, using advanced technologies in Generative AI, Big Data, and Cloud.
+
+\vspace{8pt}
+I specialize in implementation of scalable machine learning solutions built on PyTorch and Tensorflow. I am also available to do big data architecture on the Spark/Hadoop platform. I am also a Google Certified Partner, a Google Certified Data Engineer, as well as a Cloudera Certified Developer for Hadoop.
+
+\vspace{8pt}
+I also am an expert in Natural Language Understanding and am doing work on extending BERT-based transformers for NLU in scientific, technical, and legal documents.
+
+\vspace{8pt}
+I'm also using my knowledge of NLP to apply to Deep Learning for genomic expression of disease, in a research collaboration with Wake Forest University School of Medicine.
+
+\vspace{8pt}
+I am available for project based, contract work, or full-time roles. Let's connect to discuss how I can help you achieve your AI and data-driven goals.
+
+\vspace{8pt}
+I do workshops, conferences, and training in Big Data and Data Science technologies through Elephant Scale. Please also see my LinkedIn Learning Course called ``Learning Data Science with Python.'' I am also a Google Certified Instructor.
+
+\vspace{8pt}
+\url{https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale}
+\par}
+
+\cvsection{Certification}
+\cert{Cloudera certified engineer for hadoop}\dashsep
+\cert{Google certified cloud architect}\dashsep
+\cert{Google certified consultant}\dashsep
+\cert{Google Certified Data Engineer}\dashsep
+\cert{Google certified instructor}
+
+\cvsection{Languages}
+\begin{minipage}{0.6\linewidth}
+  {\color{black}\bfseries English}\par{\small Native}
+\end{minipage}%
+\begin{minipage}{0.4\linewidth}\raggedleft\langdots{5}{5}\end{minipage}\par\vspace{4pt}
+
+\cvsection{Skills}
+\skillgroup{AI/ML}{%
+  \skill{AI/ML}\skill{Deep Learning}\skill{TensorFlow}
+  \skill{PyTorch}\skill{Keras}\skill{Machine Learning}
+  \skill{Scikit-learn}\skill{Spark ML}
+  \skill{Computer Vision}\skill{OpenCV}\skill{SLAM}
+  \skill{NLP}\skill{LangChain}\skill{Hugging Face}
+  \skill{BERT}\skill{SentenceTransformers}
+  \skill{Generative AI}\skill{GANs}\skill{LLMs}}
+\dashsep
+\skillgroup{LLMs \& Reasoning}{%
+  \skill{OPT}\skill{LLaMA2/LLaMA3}\skill{Mistral}
+  \skill{RAG}\skill{Graph-of-Thought}
+  \skill{Structured Language Models}
+  \skill{Autonomous Agents}}
+\dashsep
+\skillgroup{Vector \& Graph Databases}{%
+  \skill{Pinecone}\skill{Milvus}\skill{Neo4j}\skill{ArangoDB}}
+\dashsep
+\skillgroup{Cloud Platforms}{%
+  \skill{AWS}\skill{Bedrock}\skill{SageMaker}
+  \skill{Lambda}\skill{S3}
+  \skill{GCP (Vertex AI, BigQuery)}
+  \skill{Azure (Databricks)}}
+\dashsep
+\skillgroup{Big Data}{%
+  \skill{Hadoop (Cloudera)}\skill{Spark (PySpark)}
+  \skill{Kafka}\skill{Databricks}\skill{NiFi}}
+\dashsep
+\skillgroup{Languages}{%
+  \skill{Python}\skill{R}\skill{Java}\skill{JavaScript}\skill{C/C++}}
+\dashsep
+\skillgroup{DevOps \& Infra}{%
+  \skill{Docker}\skill{Kubernetes}\skill{Terraform}\skill{CI/CD}}
+\dashsep
+\skillgroup{Tools}{%
+  \skill{Jira}\skill{Confluence}\skill{Fiddler}
+  \skill{Weights and Biases}\skill{MLFlow}}
+
+\cvsection{Find Me Online}
+\online{Linkedin}{\url{www.linkedin.com/in/tim-fox-ai}}\dashsep
+\online{Social Network}{\url{http://www.scaia.ai/}}\dashsep
+\online{Social Network}{\url{http://www.createksolutions.com/}}\dashsep
+\online{Media}{LinkedIn Learning Instructor for Data Science With Python
+  \url{https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale}}
+
+\end{paracol}
+
+\end{document}
