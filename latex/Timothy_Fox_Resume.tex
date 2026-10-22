@@ -80,10 +80,13 @@
   \hspace{16pt}\penalty0\relax}
 
 % Skill group: {group name}{\skill{..}\skill{..}...}
+% (boxed so a group never splits across pages)
 \newcommand{\skillgroup}[2]{%
-  \needspace{4\baselineskip}{\color{accent}#1}\par\vspace{6pt}
+  \par\noindent\begin{minipage}{\linewidth}
+  {\color{accent}#1}\par\vspace{6pt}
   \begingroup\setlength{\baselineskip}{24pt}%
-  \leftskip=6pt\ignorespaces#2\par\endgroup\vspace{2pt}}
+  \leftskip=6pt\ignorespaces#2\unpenalty\unskip\par\endgroup
+  \end{minipage}\par\vspace{2pt}}
 
 % Certification line (blue, bold)
 \newcommand{\cert}[1]{{\color{accent}\bfseries #1}\par}
@@ -111,7 +114,7 @@
 {\color{black}\fontsize{30}{34}\selectfont\bfseries TIMOTHY M FOX}\par
 \vspace{4pt}
 {\color{accent}\fontsize{14}{16}\selectfont
-  \textbf{Scalable} AI, Machine Learning \textbf{Engineer and Data Scientist}}\par
+  AI/ML Engineer \& Data Scientist \textbf{| Generative AI, LLMs \& Agentic Systems}}\par
 \vspace{6pt}
 {\small\bfseries\color{meta}%
   {\color{accent}\faPhone*}\hspace{4pt}+14708073317\hspace{12pt}
@@ -127,21 +130,21 @@
 
 \job{Lead AI and ML Engineer}{Scaia, \url{http://www.scaia.ai/}}{01/2019 - Present}{Houston, TX}
 \begin{itemize}
-  \item Led AI strategy and implementation across cutting-edge \textbf{GenAI} and \textbf{RAG} solutions for enterprise clients
-  \item Spearheaded development of RAG (Retrieval-Augmented Generation) pipelines leveraging \textbf{Milvus} and \textbf{Pinecone} Vector Databases to dramatically improve enterprise chatbot accuracy
-  \item Built full-stack GenAI solutions using \textbf{AWS Bedrock}, integrating foundational models (e.g., Claude, Titan) for scalable inference and fine-tuning
-  \item Developed a sophisticated \textbf{Graph-of-Thought} QA system using \textbf{Neo4j} for semantic understanding over legal corpora
-  \item Integrated \textbf{Agentic AI} framework to build real-time autonomous agents with memory and adaptive reasoning
-  \item Fine-tuned \textbf{OPT and LLaMA2} models for structured document generation and summarization tasks
-  \item Developed NLP pipelines using \textbf{LangChain} for document QA, semantic search, and knowledge augmentation
-  \item Built Autonomous \textbf{ReAct} agents with reasoning loops and external tool capabilities
+  \item Led AI strategy and delivery of enterprise \textbf{Generative AI}, \textbf{RAG}, and \textbf{Agentic AI} solutions
+  \item Built multi-agent systems with \textbf{LangGraph}, featuring tool calling, persistent memory, and human-in-the-loop review
+  \item Delivered cloud-native agents with \textbf{Google ADK / Vertex AI}, \textbf{Azure AI Foundry}, and \textbf{Amazon Bedrock Agents}
+  \item Exposed enterprise tools and data to agents via \textbf{MCP} (Model Context Protocol) servers, and enabled cross-agent interoperability with \textbf{A2A}
+  \item Built production RAG pipelines on \textbf{Milvus} and \textbf{Pinecone} with hybrid search and reranking to improve enterprise chatbot accuracy
+  \item Developed a \textbf{GraphRAG} QA system on \textbf{Neo4j} for semantic understanding over legal corpora
+  \item Built full-stack GenAI solutions on \textbf{AWS Bedrock} (Claude, Llama, Titan) with Knowledge Bases and Guardrails for scalable, governed inference
+  \item Fine-tuned \textbf{Phi-4, Gemma, and Llama} models with QLoRA (PEFT) for structured document generation and summarization
+  \item Built data ingestion and ML enrichment pipelines on \textbf{Databricks} (PySpark, Delta Lake, MLflow) to prepare enterprise data for analytics and GenAI applications
   \item Deployed multi-cloud AI/ML pipelines on \textbf{AWS, Azure, and GCP}, optimizing performance, latency, and cost
-  \item Led full product lifecycle, including \textbf{React-based UI}, model serving infrastructure, and DevOps
-  \item Composed User stories and fulfilled sprints with help of \textbf{Jira}
+  \item Led full product lifecycle, including \textbf{React-based UI}, model serving infrastructure, LLM evaluation, and DevOps
 \end{itemize}
 \dashsep
 
-\job{Lead Data Architect}{Elephant Scale}{01/2014 - 05/2020}{Houston, Texas}
+\job{Lead Data Architect}{Elephant Scale}{01/2014 - 12/2018}{Houston, Texas}
 \begin{itemize}
   \item Architect, Consultant, and Speaker on Big Data, Machine Learning, and Data Science topics. Experience in Spark, Hadoop, R, Python, Scala topics with a specialization in deep analytics, text mining, unstructured data analysis and machine learning.
 \end{itemize}
@@ -149,7 +152,7 @@
 
 \job{Owner and Lead AI Engineer | Data Scientist}{CreaTek Solutions, Inc. \url{http://www.createksolutions.com/}}{12/2005 - Present}{Austin, TX}
 \begin{itemize}
-  \item A Senior AI leader with extensive experience in Big Data Engineering/Architecture and Data Science, specializing in Deep Learning, Machine Learning, Hadoop, Apache Spark, R, Python and Data Analytics. Proven success in delivering advanced AI and big data solutions to enterprise clients in retail, finance, media, and healthcare.
+  \item A Senior AI leader with extensive experience in Data Engineering/Architecture and Data Science, specializing in Generative AI, Deep Learning, Machine Learning, Apache Spark, Databricks, and Python. Proven success in delivering advanced AI and big data solutions to enterprise clients in retail, finance, media, and healthcare.
 \end{itemize}
 
 \cvsection{Projects}
@@ -192,15 +195,15 @@
 \project{TD Bank}{05/2013 - 11/2014}{Toronto, ON}
 \begin{itemize}
   \item Built Hadoop/HBase platform for \textbf{AML (Anti-Money Laundering)} compliance data.
-  \item Migrated models from SAS to PySpark/MapReduce.
-  \item Created scalable data pipelines on \textbf{Databricks}.
+  \item Migrated models from SAS to Hadoop (Hive/MapReduce).
+  \item Created scalable data pipelines on \textbf{Hadoop}.
 \end{itemize}
 \dashsep
 
 \project{Equifax}{02/2012 - 05/2013}{Alpharetta, GA}
 \begin{itemize}
   \item Deployed and administered a \textbf{Cloudera Hadoop cluster}.
-  \item Migrated logistic regression scoring models from SAS to Apache Spark.
+  \item Migrated logistic regression scoring models from SAS to Hadoop MapReduce.
 \end{itemize}
 \dashsep
 
@@ -214,13 +217,13 @@
 \project{Match.com}{02/2010 - 01/2011}{Dallas, TX}
 \begin{itemize}
   \item Used topic modeling and text vectorization for profile matching.
-  \item Built deep learning-based image recognition models for user photos.
+  \item Built neural network-based image recognition models for user photos.
 \end{itemize}
 \dashsep
 
 \project{Daily Mail}{11/2009 - 02/2010}{UK, London}
 \begin{itemize}
-  \item Created a content recommendation engine using Spark ML.
+  \item Created a content recommendation engine using Hadoop and Mahout.
   \item Implemented document clustering and real-time personalization.
 \end{itemize}
 \dashsep
@@ -228,20 +231,20 @@
 \project{Astellas (via NewVantage)}{02/2008 - 11/2009}{}
 \begin{itemize}
   \item Built signal correlation pipelines in R for drug adherence analysis.
-  \item Used Hive/MapReduce for clinical signal pattern analysis.
+  \item Used Hadoop MapReduce for clinical signal pattern analysis.
 \end{itemize}
 \dashsep
 
 \project{NewVantage Technologies}{05/2007 - 02/2008}{Boston, MA}
 \begin{itemize}
-  \item Built a Hadoop-based predictive analytics pipeline for risk management in finance.
-  \item Used Mahout for modeling and Twitter Storm/Redis for real-time streaming.
+  \item Built a predictive analytics pipeline for risk management in finance.
+  \item Developed statistical risk models in R with near-real-time scoring.
 \end{itemize}
 \dashsep
 
-\project{Banking Client}{11/2006 - 05/2007}{Location}
+\project{Banking Client}{11/2006 - 05/2007}{}
 \begin{itemize}
-  \item Built a Hadoop-based data warehouse.
+  \item Built an enterprise data warehouse.
   \item Developed ETL pipeline for SAS and mainframe data ingestion.
 \end{itemize}
 
@@ -260,88 +263,79 @@
 
 \cvsection{Summary}
 {\small
-Scalable AI/ML Engineer and Data Scientist
+GenAI \& Agentic AI Engineer
 
 \vspace{8pt}
-I am a Senior AI/ML Engineer and Data Scientist (20 years of experience) focused on engineering solutions in end to end Artificial Intelligence, Machine Learning, Big Data Architecture, Data Science, and Analytics. With a record of high-impact work for enterprise clients, including Walmart, Macy's, and TD Bank, using advanced technologies in Generative AI, Big Data, and Cloud.
+I am a Senior AI/ML Engineer and Data Scientist with 20+ years of experience building end-to-end AI, machine learning, and data platforms for enterprise clients, including Walmart, Macy's, Publix, and TD Bank.
 
 \vspace{8pt}
-I specialize in implementation of scalable machine learning solutions built on PyTorch and Tensorflow. I am also available to do big data architecture on the Spark/Hadoop platform. I am also a Google Certified Partner, a Google Certified Data Engineer, as well as a Cloudera Certified Developer for Hadoop.
+I specialize in Generative AI and agentic systems: RAG and GraphRAG, multi-agent orchestration with LangGraph, MCP and A2A, and LLM fine-tuning, deployed across AWS, Azure, and GCP. My foundation is deep learning (PyTorch), NLP over scientific, technical, and legal documents, and large-scale data engineering on Spark and Databricks.
 
 \vspace{8pt}
-I also am an expert in Natural Language Understanding and am doing work on extending BERT-based transformers for NLU in scientific, technical, and legal documents.
+I am applying deep learning and NLP to genomic expression of disease in a research collaboration with Wake Forest University School of Medicine.
 
 \vspace{8pt}
-I'm also using my knowledge of NLP to apply to Deep Learning for genomic expression of disease, in a research collaboration with Wake Forest University School of Medicine.
+I am a Google Certified Data Engineer, Cloud Architect, and Instructor, and have taught workshops and conference sessions through Elephant Scale, including the LinkedIn Learning course ``Learning Python for Data Science.''
 
 \vspace{8pt}
-I am available for project based, contract work, or full-time roles. Let's connect to discuss how I can help you achieve your AI and data-driven goals.
-
-\vspace{8pt}
-I do workshops, conferences, and training in Big Data and Data Science technologies through Elephant Scale. Please also see my LinkedIn Learning Course called ``Learning Data Science with Python.'' I am also a Google Certified Instructor.
-
-\vspace{8pt}
-\url{https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale}
+I am available for project-based, contract, or full-time roles.
 \par}
 
 \cvsection{Certification}
-\cert{Cloudera certified engineer for hadoop}\dashsep
-\cert{Google certified cloud architect}\dashsep
-\cert{Google certified consultant}\dashsep
-\cert{Google Certified Data Engineer}\dashsep
-\cert{Google certified instructor}
-
-\cvsection{Languages}
-\begin{minipage}{0.6\linewidth}
-  {\color{black}\bfseries English}\par{\small Native}
-\end{minipage}%
-\begin{minipage}{0.4\linewidth}\raggedleft\langdots{5}{5}\end{minipage}\par\vspace{4pt}
+\cert{Google Certified Professional Cloud Architect}\dashsep
+\cert{Google Certified Professional Data Engineer}\dashsep
+\cert{Google Certified Instructor}\dashsep
+\cert{Google Certified Consultant}\dashsep
+\cert{Cloudera Certified Developer for Hadoop}
 
 \cvsection{Skills}
-\skillgroup{AI/ML}{%
-  \skill{AI/ML}\skill{Deep Learning}\skill{TensorFlow}
-  \skill{PyTorch}\skill{Keras}\skill{Machine Learning}
-  \skill{Scikit-learn}\skill{Spark ML}
-  \skill{Computer Vision}\skill{OpenCV}\skill{SLAM}
-  \skill{NLP}\skill{LangChain}\skill{Hugging Face}
-  \skill{BERT}\skill{SentenceTransformers}
-  \skill{Generative AI}\skill{GANs}\skill{LLMs}}
+\skillgroup{Agentic AI}{%
+  \skill{LangGraph}\skill{LangChain}\skill{MCP}\skill{A2A}
+  \skill{Google ADK}\skill{Azure AI Foundry Agents}
+  \skill{Bedrock Agents}\skill{Multi-Agent Systems}
+  \skill{Tool Calling}}
 \dashsep
-\skillgroup{LLMs \& Reasoning}{%
-  \skill{OPT}\skill{LLaMA2/LLaMA3}\skill{Mistral}
-  \skill{RAG}\skill{Graph-of-Thought}
-  \skill{Structured Language Models}
-  \skill{Autonomous Agents}}
+\skillgroup{LLMs \& Retrieval}{%
+  \skill{Llama 4}\skill{Gemma}\skill{Phi-4}\skill{Mistral}
+  \skill{Claude}\skill{GPT}\skill{Gemini}
+  \skill{RAG}\skill{GraphRAG}\skill{Hybrid Search}\skill{Reranking}
+  \skill{QLoRA / PEFT}\skill{Structured Outputs}}
+\dashsep
+\skillgroup{AI/ML}{%
+  \skill{Generative AI}\skill{Deep Learning}\skill{PyTorch}
+  \skill{TensorFlow}\skill{Hugging Face}\skill{Scikit-learn}
+  \skill{Databricks ML}\skill{Spark ML}\skill{NLP}\skill{Embeddings}
+  \skill{Computer Vision}\skill{OpenCV}}
+\dashsep
+\skillgroup{LLMOps \& MLOps}{%
+  \skill{vLLM}\skill{Ollama}\skill{LangSmith}\skill{MLflow}
+  \skill{Weights \& Biases}\skill{Fiddler}\skill{Guardrails}}
 \dashsep
 \skillgroup{Vector \& Graph Databases}{%
   \skill{Pinecone}\skill{Milvus}\skill{Neo4j}\skill{ArangoDB}}
 \dashsep
 \skillgroup{Cloud Platforms}{%
-  \skill{AWS}\skill{Bedrock}\skill{SageMaker}
-  \skill{Lambda}\skill{S3}
-  \skill{GCP (Vertex AI, BigQuery)}
-  \skill{Azure (Databricks)}}
+  \skill{AWS (Bedrock, SageMaker, Lambda, S3)}
+  \skill{Azure (OpenAI, AI Foundry, Databricks)}
+  \skill{GCP (Vertex AI, BigQuery)}}
 \dashsep
-\skillgroup{Big Data}{%
-  \skill{Hadoop (Cloudera)}\skill{Spark (PySpark)}
-  \skill{Kafka}\skill{Databricks}\skill{NiFi}}
+\skillgroup{Data Engineering}{%
+  \skill{Spark (PySpark)}\skill{Databricks}\skill{Delta Lake}
+  \skill{Kafka}\skill{Airflow}\skill{Hadoop}}
 \dashsep
 \skillgroup{Languages}{%
-  \skill{Python}\skill{R}\skill{Java}\skill{JavaScript}\skill{C/C++}}
+  \skill{Python}\skill{SQL}\skill{R}\skill{Java}\skill{JavaScript}\skill{C/C++}}
 \dashsep
-\skillgroup{DevOps \& Infra}{%
-  \skill{Docker}\skill{Kubernetes}\skill{Terraform}\skill{CI/CD}}
-\dashsep
-\skillgroup{Tools}{%
-  \skill{Jira}\skill{Confluence}\skill{Fiddler}
-  \skill{Weights and Biases}\skill{MLFlow}}
+\skillgroup{DevOps \& Tools}{%
+  \skill{Docker}\skill{Kubernetes}\skill{Terraform}\skill{CI/CD}
+  \skill{Git}\skill{Jira}\skill{Confluence}}
 
 \cvsection{Find Me Online}
-\online{Linkedin}{\url{www.linkedin.com/in/tim-fox-ai}}\dashsep
-\online{Social Network}{\url{http://www.scaia.ai/}}\dashsep
-\online{Social Network}{\url{http://www.createksolutions.com/}}\dashsep
-\online{Media}{LinkedIn Learning Instructor for Data Science With Python
-  \url{https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale}}
+\online{LinkedIn}{\url{www.linkedin.com/in/tim-fox-ai}}\dashsep
+\online{Website}{\url{http://www.scaia.ai/}}\dashsep
+\online{Website}{\url{http://www.createksolutions.com/}}\dashsep
+\online{Media}{LinkedIn Learning Instructor:
+  \href{https://www.linkedin.com/learning/learning-python-for-data-science-with-tim-fox-and-elephant-scale}{``Learning Python for Data Science''}}
 
 \end{paracol}
 
